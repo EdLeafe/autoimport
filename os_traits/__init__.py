@@ -1,21 +1,3 @@
-#import os
-#import glob
-#import sys
-#
-#this_mod = sys.modules.get(__name__)
-#this_dir = os.path.dirname(this_mod.__file__)
-#print this_dir
-#
-#for dirname, _, files in os.walk(this_dir):
-#    pyfiles = [f for f in files if f.endswith(".py") and not f.startswith("_")]
-#    subdir_path = dirname.lstrip(this_dir)
-#    rel_path = ".%s" % subdir_path.replace("/", ".")
-#    print rel_path, pyfiles
-#    if pyfiles:
-#        for pyfile in pyfiles:
-#            mod_name = pyfile.rstrip(".py")
-#            from rel_path import mod_name
-
 import importlib
 import pkgutil
 import sys
