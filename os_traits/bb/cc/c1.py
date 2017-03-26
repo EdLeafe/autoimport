@@ -1,2 +1,2 @@
-foo = "WOW, MAN"
-bar = 6
+foo = "c1foo"
+bar = "c1bar"

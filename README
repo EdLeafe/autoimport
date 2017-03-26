@@ -1,3 +1,8 @@
 Found this code on StackOverflow[0]. Seems to work pretty well.
 
+To see it in action, run ``python main.py``. You can modify the output to see
+the various values. Then try adding a file somewhere in the 'os_traits'
+subdirectory, or add a package subdirectory with .py files and values, and
+verify that they do indeed get imported with the right pathing.
+
 [0] http://stackoverflow.com/questions/3365740/how-to-import-all-submodules
